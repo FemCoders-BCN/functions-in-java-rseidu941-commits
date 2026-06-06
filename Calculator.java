@@ -3,8 +3,26 @@ public class Calculator {
     public static void main(String[] args) {
 
         //Ejecuta aquí todos los métodos creados e imprime en la terminal. 
-        
+      
+        //Ejercicio 1
+        double sumResult = add(10.5, 5.5);
+        System.out.println("Result of addition: " + sumResult);
+
+       // Ejercicio 2
+       double  subtractResult = subtract(10.5, 5.5);
+       System.out.println("Result of subtraction: " + subtractResult);
+
+       // Ejercicio 3
+       double multiplyResult = multiply(10.5, 5.5);
+       System.out.println("Result of multiplication: " + multiplyResult);
+
+        // Ejercicio 4
+        double divideResult = divide(10.5, 5.5);
+        System.out.println("Result of division: " + divideResult);
+
+
     }
+
 
     //Define los métodos basándote en su doc comment.
 
@@ -19,6 +37,9 @@ public class Calculator {
      * Inside the function:
      * 1. sum 2 numbers
      */
+    public static double add(double number1, double number2 ){
+      return number1 + number2;  
+    }
     
 
      //Ejercicio 2:
@@ -32,6 +53,9 @@ public class Calculator {
      * Inside the function:
      * 1. subtract 2 numbers
      */
+  public static double subtract(double number1, double number2){
+    return number1 - number2;
+  }
     
 
     //Ejercicio 3:
@@ -45,6 +69,9 @@ public class Calculator {
      * Inside the function:
      * 1. multiply 2 numbers
      */
+    public static  double multiply(double number1, double number2){
+        return number1 * number2;
+    }
     
 
     //Ejercicio 4:
@@ -58,6 +85,9 @@ public class Calculator {
      * Inside the function:
      * 1. divide 2 numbers
      */
-    
+    public static  double divide(double number1, double number2){
+        return number1 / number2;
+    }
 
 }
+ 
